@@ -1,7 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
 
 const HeroSection = () => {
@@ -20,12 +19,7 @@ const HeroSection = () => {
             </span>
             <br></br>
             <TypeAnimation
-              sequence={[
-                "Gabriel",
-                1000,
-                "Dev Fullstack",
-                1000,
-              ]}
+              sequence={["Gabriel", 1000, "Dev Backend", 1000]}
               wrapper="span"
               speed={50}
               repeat={Infinity}
@@ -42,14 +36,15 @@ const HeroSection = () => {
             >
               Me contrate
             </Link> */}
-            <Link
-              href="/"
+            <a
+              href="/cv/gabriel-cv.pdf"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 to-purple-500 hover:bg-slate-800 text-white mt-3"
+              download
             >
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+              <span className="block bg-[#121212] hover-bg-slate-800 rounded-full px-5 py-2">
                 Download CV
               </span>
-            </Link>
+            </a>
           </div>
         </motion.div>
         <motion.div
