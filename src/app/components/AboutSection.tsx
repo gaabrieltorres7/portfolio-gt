@@ -23,7 +23,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>UNINASSAU, Ciência da Computação</li>
+        <li>Ciência da Computação, UNINASSAU</li>
       </ul>
     ),
   },
@@ -57,10 +57,10 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">Sobre mim</h2>
           <p className="text-base lg:text-lg text-justify">
-          Tenho um fascínio pela Internet e em como ela funciona, por isso, explorar novas tecnologias é muito divertido para mim. 
+          Tenho uma paixão pela Internet e em como ela funciona. Por isso, explorar novas tecnologias é muito divertido para mim. 
           Desde outubro de 2022, tenho atuado como estagiário fullstack, trabalhando com tecnologias como ReactJS, NodeJS e .NET. 
           Embora eu tenha experiência em desenvolvimento fullstack, meu maior interesse e foco estão voltados para o desenvolvimento <span className='text-purple-500'>backend</span>.
-          A construção da lógica e da arquitetura dos sistemas é fascinante para mim, e é onde encontro minha maior paixão.
+          A construção da lógica e da arquitetura dos sistemas é fascinante para mim, e é onde encontro meu maior entusiasmo.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
