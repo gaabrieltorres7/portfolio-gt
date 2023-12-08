@@ -34,6 +34,7 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>Programa Oracle Next Education</li>
         <li>Google Data Analytics</li>
+        <li>Google Project Management</li>
         <li>Upper-Intermediate English - SENAC Idiomas</li>
       </ul>
     ),
